@@ -1,0 +1,188 @@
+---
+title: "Kontribusi Ekspor Tanaman Obat, Aromatik dan Rempah-Rempah terhadap Perekonomian Indonesia : tinjauan tahun 2012-2023"
+subtitle: "Metode Penelitian Politeknik APP Jakarta"
+author: "Nurul Afifah"
+date: 2025-01-03
+number-sections: true
+format:
+  html: default
+  docx: default
+---
+
+![](poltekapp.jpg)
+
+## Pendahuluan
+
+### Latar belakang
+
+Indonesia merupakan negara kepulauan dengan keanekaragaman hayati yang melimpah, memiliki potensi besar dalam sektor pertanian dan perkebunan, khususnya dalam produksi tanaman obat, aromatik, dan rempah-rempah. Tanaman ini tidak hanya berperan penting dalam memenuhi kebutuhan dalam negeri, tetapi juga menjadi komoditas ekspor yang diinginkan. Dalam beberapa tahun terakhir, permintaan global terhadap produk-produk tersebut terus meningkat seiring dengan tren gaya hidup sehat dan meningkatnya penggunaan bahan-bahan alami dalam industri makanan, minuman, kosmetik, dan farmasi.
+
+Ekspor tanaman obat, aromatik, dan rempah-rempah memberikan kontribusi yang signifikan terhadap perekonomian Indonesia. Kontribusi tersebut dapat diukur dari angka ekspor yang dicapai, dampaknya terhadap pendapatan negara, dan peran sektor pertanian dalam penciptaan lapangan kerja. Berdasarkan data ekspor beberapa negara tujuan utama seperti, Pakistan, India, Amerika Serikat dan negara-negara lainnya. terus meningkatkan impor produk rempah-rempah dari Indonesia, menunjukkan daya saing yang kuat di pasar global.
+
+### Ruang lingkup
+
+Penelitian ini mencakup analisis data ekspor tanaman obat, aromatik, dan rempah-rempah. data yang digunakan bersumber dari Badan Pusat Statistik (BPS) dalam kurun waktu 2012 hingga 2023. Rentang waktu ini dipilih untuk memberikan gambaran tren dan pola pertumbuhan yang relevan. Komoditas yang dianalisis dalam penelitian ini mencakup kategori tanaman obat, aromatik, dan rempah-rempah yang diidentifikasi berdasarkan kode HS tertentu, seperti HS 0904 (lada), HS 0910 (jahe, kunyit, dan rempah lainnya), serta HS 1211 (tanaman obat). Fokus penelitian adalah pada kontribusi ekspor Indonesia ke negara-negara tujuan utama, termasuk India, Amerika Serikat, Tiongkok, Uni Eropa, dan negara-negara ASEAN, yang secara konsisten menjadi pasar utama untuk produk-produk tersebut. dalam penelitian ini mengkaji kontribusi komoditas tersebut terhadap nilai ekspor (dalam USD) berdasarkan data FOB dan volume ekspor (dalam ton).
+
+### Rumusan masalah
+
+1.  Seberapa besar kontribusi ekspor tanaman obat, aromatik, dan rempah-rempah terhadap neraca perdagangan Indonesia?
+
+2.  Faktor-faktor apa saja yang memengaruhi daya saing ekspor tanaman obat, aromatik, dan rempah-rempah Indonesia?
+
+3.  Bagaimana dampak ekspor komoditas tersebut terhadap perekonomian nasional, khususnya dalam menciptakan lapangan kerja dan meningkatkan pendapatan negara?
+
+### Tujuan dan manfaat penelitian
+
+Penelitian ini bertujuan untuk menganalisis kontribusi ekspor tanaman obat, aromatik, dan rempah-rempah terhadap neraca perdagangan Indonesia, mengetahui faktor-faktor yang memengaruhi daya saing ekspor komoditas tersebut di pasar global, dan mengkaji dampak ekspor komoditas tersebut terhadap perekonomian nasional, khususnya dalam konteks penciptaan lapangan kerja dan pendapatan negara.
+
+Adapun manfaat dari penelitian ini antara lain :
+
+1.  Manfaat Teoritis
+
+Penelitian ini diharapkan dapat menambah wawasan akademis mengenai peran ekspor dalam pembangunan ekonomi, khususnya di sektor pertanian dan membantu memberikan kontribusi bagi pengembangan kajian perdagangan internasional, khususnya terkait komoditas tanaman obat, aromatik, dan rempah-rempah
+
+2.  Manfaat Praktis
+
+a\. untuk akademisi
+
+membantu dalam menyediakan data dan analisis yang relevan untuk penelitian lanjutan terkait ekspor tanaman obat, aromatik, dan rempah-rempah.
+
+b\. untuk industri
+
+memberikan wawasan tentang faktor-faktor yang memengaruhi daya saing ekspor tanaman obat, aromatik, dan rempah-rempah untuk mengembangkan strategi peningkatan ekspor.
+
+c\. untuk pemerintah
+
+Memberikan rekomendasi kebijakan yang dapat meningkatkan kinerja ekspor dan mendorong keberlanjutan sektor pertanian.
+
+### Package
+
+Ini tidak wajib ada di tulisan anda tapi anda dapat menunjukkan Packages yang digunakan antara lain sebagai berikut:
+
+```{r}
+library(ggplot2)
+library(readxl)
+```
+
+## Studi pustaka
+
+Ekspor merupakan salah satu pendorong utama pertumbuhan ekonomi, terutama bagi negara berkembang seperti Indonesia. Kontribusi ekspor terhadap perekonomian terlihat dari peningkatan devisa, penciptaan lapangan kerja, dan mendorong pertumbuhan pada sektor terkait. Karena keunggulan geografis dan keanekaragaman hayati Indonesia, tanaman obat, aromatik, dan rempah-rempah merupakan komoditas yang memiliki potensi besar di pasar internasional. komoditas tersebut berperan penting dalam memperkuat daya saing Indonesia di pasar global. selain itu, permintaan global terhadap bahan-bahan alami dan produk berbasis kesehatan terus meningkat, sehingga memperluas peluang ekspor yang lebih besar. dengan pengolahan lebih lanjut dan peningkatan kualitas produk dapat meningkatkan nilai tambah dan memperluas pangsa pasar ekspor.
+
+Perdagangan global tanaman obat dan rempah-rempah menunjukkan tren peningkatan seiring dengan kesadaran akan manfaat kesehatan dari bahan-bahan alami. Indonesia termasuk salah satu negara pengekspor utama untuk komoditas ini, dengan negara tujuan ekspor utama meliputi India, Amerika Serikat, dan Eropa. Berbagai literatur menyebutkan bahwa ekspor tanaman obat, aromatik, dan rempah-rempah memiliki kontribusi yang signifikan terhadap perekonomian Indonesia. Sektor ini tidak hanya meningkatkan pendapatan negara tetapi juga mendukung keberlanjutan ekonomi lokal melalui pemberdayaan petani dan pengusaha kecil. Selain itu, terdapat potensi yang besar untuk meningkatkan daya saing melalui inovasi dan diversifikasi produk.
+
+## Metode penelitian
+
+### Data
+
+Data yang digunakan adalah nilai ekspor (dalam satuan USD) sebagai variabel independen (X) dan indikator ekonomi yaitu PDB sektor pertanian (Dalam satuan Rp) sebagai variabel dependen (Y)
+
+| Tahun | Nilai Ekspor Tanaman Obat | PDB Sektor Pertanian |
+|:-----:|:-------------------------:|:--------------------:|
+| 2012  |       \$ 276.513,5        |     Rp 3.233.616     |
+| 2013  |       \$ 326.207,4        |     Rp 3.581.724     |
+| 2014  |       \$ 468.709,8        |     Rp 3.982.607     |
+| 2015  |       \$ 508.326,9        |     Rp 4.118.634     |
+| 2016  |       \$ 493.243,3        |     Rp 4.287.826     |
+| 2017  |       \$ 620.348,8        |     Rp 4.714.664     |
+| 2018  |       \$ 593.801,8        |     Rp 4.891.856     |
+| 2019  |       \$ 590.655,8        |     Rp 5.175.078     |
+| 2020  |       \$ 618.261,3        |     Rp 5.602.256     |
+| 2021  |       \$ 765.818,7        |     Rp 6.683.798     |
+| 2022  |       \$ 605.781,1        |     Rp 7.359.074     |
+| 2023  |       \$ 465.141,1        |     Rp 8.113.018     |
+
+Dalam penelitian ini, data yang digunakan adalah data sekunder dengan pendekatan runtun waktu (time series) selama 2012 hinga 2023. Data tersebut di dapatkan dari Badan Pusat Statistik (BPS).
+
+```{r}
+library(readxl)
+data <-read_excel("data.xlsx")
+head(data)
+```
+
+```{r}
+str(data)
+```
+
+```{r}
+ggplot(data, aes(x= x, y= y)) +  geom_line()+geom_point()+ggtitle("Tren Ekspor Tanaman Obat, Aromatik dan Rempah-Rempah Indonesia (2012-2023)")+ xlab("Tahun") + ylab("Volume Ekspor(Rupiah)")
+```
+
+### Metode analisis
+
+Metode yang digunakan dalam penelitian ini adalah analisis regresi linear sederhana untuk mengukur kontribusi ekspor tanaman obat, aromatik, dan rempah-rempah terhadap perekonomian Indonesia selama periode 2012-2023. Analisis ini bertujuan untuk mengetahui hubungan antara nilai ekspor sebagai variabel independen (X) dan indikator ekonomi seperti PDB sektor pertanian sebagai variabel dependen (Y).
+
+Model regresi linier yang digunakan dinyatakan dengan persamaan berikut: $$
+Y=\beta_0 + \beta_1 x_t+\epsilon
+$$
+
+Keterangan :
+
+-   $Y$ = Indikator perekonomian yaitu PDB sektor pertanian
+
+-   $X$ = Nilai ekspor tanaman obat, aromatik dan remaph-rempah
+
+-   $\beta_0$ = Konstanta, yaitu nilai $Y$ ketika $X$ = 0
+
+-   $\beta_1$ = Koefisien regresi, yaitu tingkat perubahan $Y$ untuk setiap unit perubahan $X$
+
+-   $\epsilon$ = Error term, yaitu variabel yang mewakili faktor - faktor lain yang mempengaruhi $Y$ namun tidak masuk dalam model
+
+## Pembahasan
+
+### Pembahasan masalah
+
+```{r}
+ggplot(data, aes(x = Tahun)) + geom_line(aes(y = x, color = "Ekspor")) + geom_line(aes(y = y, color = "PDB")) + labs(title = "Tren Ekspor dan PDB (2012-2023)",x = "Tahun",y = "Nilai (dalam miliar)") + scale_color_manual(name = "Keterangan",values = c("Ekspor" = "blue", "PDB" = "red"))
+```
+
+Berikut tabel hasil summary dari model regresi :
+
+| Parameter             | Estimasi | Std. Error | t-value | P-value | Signifikan |
+|-----------------------|----------|------------|---------|---------|------------|
+| Intercept ($\beta_0$) | 277500   | 124500     | 2.229   | 0.0499  | \*(5%      |
+| Ekspor ($\beta_1$)    | 0.04863  | 0.02327    | 2.089   | 0.0623  | .(10%)     |
+
+Hasil regresi yang telah didapat kemudian di masukkan ke dalam rumus persamaan :
+
+$Y$ = 277500 + 0.04863 $X$
+
+Nilai koefisien $\beta_1$ sebesar 0.04863 yang menandakan setiap kenaikkan 1 unit ekspor akan meningkatkan PDB sebesar 0.4863 unit. Nilai ini menunjukkan hubungan positif antara ekspor dan PDB. pada tingkat 5% (\*)dengan intercept p-value sebesar 0.0499, menunjukkan bahwa nilai rata-rata $Y$ (saat $X$ = 0) cukup signifikan secara statistik. Nilai koefisien $\beta_1$ sebesar 0.0632 pada tingkat 5% tetapi mendekati 10% (ditandai dengan titik), menandakan hubungan antara ekspor dan pdb memiliki pengaruh lemah dan membutuhkan lebih banyak data atau variabel kontrol.
+
+Nilai R-squared menunjukkan bahwa sekitar 30,39% mengindikasi bahwa ekspor hanya mampu menjelaskan sebagian kecil variasi dalam PDB.
+
+```{r}
+ggplot(data,aes(x=x, y=y))+geom_point()+geom_hline(yintercept = 0, color =  "red")+ labs(title = "Residual Plot", x= "Nilai Prediksi", y = "Residuals")
+```
+
+### Analisis masalah
+
+Hasil regresinya adalah
+
+```{r}
+reg1<-lm(x~y, data = data)
+summary(reg1)
+```
+
+Dapat dilihat setiap bahwa setiap kenaikkan ekspor sebesar 1 miliar rupiah akan meningkatkan PDB sebesar 0.04863 miliar rupiah atau sektiar 48,63 juta.
+
+## Kesimpulan
+
+Dari hasil penelitian yang sudah dilakukan, dapat disimpulkan bahwa ekspor tanaman obat, aromatik, dan rempah - rempah memberikan kontribusi positif terhadap perekonomian Indonesia, meskipun belum sepenuhnya signifikan karena terdapat faktor lain yang berperan pada neraca perdagangan.
+
+Ekspor tanaman obat, aromatik, dan rempah-rempah memberikan dampak positif terhadap perekonomian nasional seperti, peningkatan pendapatan negara melalui pajak ekspor dan manfaat untuk ekonomi masyarakat lokal. Dari penelitian ini dapat dilihat, meskipun ekspor komoditi ini cukup signifikan terhadap perekonomian Indonesia tetapi tetap ada tantangan dalam meningkatkan daya saing dan memaksimalkan dampak ekonomi perlu perhatian dari berbagai pihak.
+
+## Referensi
+
+Mahendra, M., Telaumbanua, R. C., Wanto, A., & Windarto, A. P. (2022). Akurasi Prediksi Ekspor Tanaman Obat, Aromatik dan Rempah-Rempah Menggunakan Machine Learning. *KLIK: Kajian Ilmiah Informatika dan Komputer*, *2*(6), 207-215.
+
+Rachmawati, R. R., & Gunawan, E. (2020). Peranan petani milenial mendukung ekspor hasil pertanian di Indonesia. In *Forum penelitian agro ekonomi* (Vol. 38, No. 1, pp. 67-87).
+
+Jumawan, J., Prasetyo, A. R., Munthe, A. K., Al-Baihaqi, I., Nurazizah, R. D., & Salfaniz, S. (2024). Peranan Perdagangan Internasional Terhadap Ekspor Rempah-Rempah di Indonesia. *Socius: Jurnal Penelitian Ilmu-Ilmu Sosial*, *1*(10), 288-293.
+
+Nugraha, T. Y. R. (2023). KERJASAMA PERDAGANGAN INDONESIA-INDIA DALAM MENINGKATKAN EKSPOR KOMODITAS REMPAH. *Jurnal Manajemen, Akuntansi, Ekonomi*, *2*(2), 49-61.
+
+Anggrasari, H., Perdana, P., & Mulyo, J. H. (2021). Keunggulan komparatif dan kompetitif rempah-rempah indonesia di pasar internasional. *Jurnal Agrica*, *14*(1), 9-19.
+
+Putri, A., & Andriyani, D. (2022). Pengaruh Ekspor Tanaman Obat, Kurs, Dan Inflasi Terhadap Pertumbuhan Ekonomi Di Indonesia. *JURNAL EKONOMIKA INDONESIA*, *11*(1), 11-15.
+
+Nurcahyani, M., & Salqaura, S. S. (2024). Analisis Kinerja Ekspor Minyak Atsiri Indonesia Di Pasar Internasional. *Agrifo: Jurnal Agribisnis Universitas Malikussaleh*, *8*(1), 51-57.
